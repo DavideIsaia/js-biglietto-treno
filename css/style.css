@@ -1,0 +1,10 @@
+html {
+    background-color: rgb(53, 75, 105);
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1 {
+    color: white;
+    font-size: 4rem;
+    text-align: center;
+    margin-bottom: 30vh;    
+}
