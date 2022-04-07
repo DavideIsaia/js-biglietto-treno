@@ -1,7 +1,11 @@
 // chiedo all'utente il numero di km che percorrerà
-const
+const kmNumber = parseInt(prompt('Inserisci il numero di km che percorrerai'));
+console.log(kmNumber, typeof (kmNumber));
+
 
 // chiedo l'età
+const ageNumber = parseInt(prompt('Inserisci la tua età'));
+console.log(ageNumber, typeof (ageNumber));
 
 // moltiplico i km inseriti per 0.21
 
