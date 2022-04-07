@@ -28,5 +28,10 @@ let ticketPrice = price - discount;
 console.log(ticketPrice, typeof (ticketPrice));
 
 // tolgo i decimali superflui dal risultato
+const ticketPriceEuro = ticketPrice.toFixed(2);
+console.log(ticketPriceEuro);
 
 // mostro il risultato del prezzo nell'html
+const message = `Il prezzo del biglietto è: 
+${ticketPriceEuro} €`;
+document.getElementById('ticket-price').innerHTML = message;
