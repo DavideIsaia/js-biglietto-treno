@@ -14,16 +14,16 @@ console.log(price, typeof (price));
 let discount;
 let fare;
 
-if (ageNumber >= 18 && ageNumber < 65) {
+if (ageNumber >= 18 && ageNumber <= 65) {
     // console.log(string = "tariffa normale");
     fare = (string = "tariffa normale");
     discount = 0;
 } else if (ageNumber < 18) {
-    console.log(string = "minorenne");
+    // console.log(string = "minorenne");
     fare = (string = "tariffa minorenni");
     discount = (price * 20) / 100;
 } else if (ageNumber > 65) {
-    console.log(string = "senior");
+    // console.log(string = "senior");
     fare = (string = "tariffa anziani");
     discount = (price * 40) / 100;
 }
